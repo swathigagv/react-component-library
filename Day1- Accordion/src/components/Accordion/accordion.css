@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-title {
+  width: 100%;
+  padding: 16px;
+  background: #eab6b6;
+  color: #333;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding: 16px;
+  background: white;
+  color: #333;
+  line-height: 1.6;
+}
