@@ -23,3 +23,9 @@ A reusable accordion component displaying React interview questions.
 - JavaScript
 - CSS
 - Vite
+
+### Day 2 - Todo App
+- Add/Delete Tasks
+- Complete Tasks
+- Local Storage Persistence
+- useState & useEffect
