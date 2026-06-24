@@ -29,3 +29,17 @@ A reusable accordion component displaying React interview questions.
 - Complete Tasks
 - Local Storage Persistence
 - useState & useEffect
+
+## Features
+- Add Todo
+- Delete Todo
+- Mark Todo as Completed
+- Local Storage Persistence
+- Enter Key Support
+
+## Concepts Practiced
+- React useState
+- React useEffect
+- Event Handling
+- Conditional Rendering
+- Local Storage
