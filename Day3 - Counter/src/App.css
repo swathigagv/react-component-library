@@ -1,0 +1,291 @@
+.app {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 40px 32px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+}
+
+.app__header {
+  text-align: center;
+}
+
+.app__eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--aqua);
+  margin-bottom: 10px;
+}
+
+.app__title {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.app__subtitle {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+/* Dial */
+.dial {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--bg-soft), var(--bg));
+  border: 1px solid var(--border);
+}
+
+.dial__ring {
+  position: absolute;
+  inset: -2px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background:
+    conic-gradient(from 180deg, var(--indigo), var(--aqua), var(--indigo)) border-box;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.55;
+  transition: opacity 0.3s ease;
+}
+
+.dial--positive .dial__ring {
+  opacity: 0.9;
+}
+
+.dial--negative .dial__ring {
+  background: conic-gradient(from 180deg, var(--danger), var(--indigo), var(--danger)) border-box;
+  opacity: 0.9;
+}
+
+.dial__value {
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 700;
+  z-index: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.dial--pulse-up .dial__value {
+  animation: pulse-up 0.35s ease;
+}
+
+.dial--pulse-down .dial__value {
+  animation: pulse-down 0.35s ease;
+}
+
+.dial--pulse-reset .dial__value {
+  animation: pulse-reset 0.35s ease;
+}
+
+@keyframes pulse-up {
+  0% {
+    transform: scale(1);
+    color: var(--aqua);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+    color: var(--text);
+  }
+}
+
+@keyframes pulse-down {
+  0% {
+    transform: scale(1);
+    color: var(--danger);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    color: var(--text);
+  }
+}
+
+@keyframes pulse-reset {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.controls__btn {
+  flex: 1;
+  padding: 14px 0;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.controls__btn:hover {
+  border-color: var(--indigo-bright);
+  transform: translateY(-1px);
+}
+
+.controls__btn:active {
+  transform: translateY(0);
+}
+
+.controls__btn:focus-visible {
+  outline: 2px solid var(--aqua);
+  outline-offset: 2px;
+}
+
+.controls__btn--increment {
+  background: linear-gradient(135deg, var(--indigo), var(--aqua));
+  border: none;
+  color: #0a0e1a;
+}
+
+.controls__btn--reset {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  flex: 0.8;
+}
+
+.controls__btn--decrement {
+  font-size: 22px;
+}
+
+/* Step picker */
+.step-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.step-picker__label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-right: 4px;
+}
+
+.step-picker__btn {
+  width: 36px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.step-picker__btn:hover {
+  border-color: var(--indigo-bright);
+  color: var(--text);
+}
+
+.step-picker__btn--active {
+  background: var(--indigo);
+  border-color: var(--indigo);
+  color: #fff;
+}
+
+/* Activity log */
+.log {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+}
+
+.log__title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+
+.log__empty {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.log__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.log__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.log__label {
+  font-family: var(--font-display);
+  color: var(--indigo-bright);
+  min-width: 32px;
+}
+
+.log__arrow {
+  opacity: 0.5;
+}
+
+.log__value {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.hint {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-dim);
+  text-align: center;
+}
