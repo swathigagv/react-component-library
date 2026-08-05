@@ -43,3 +43,5 @@ A reusable accordion component displaying React interview questions.
 - Event Handling
 - Conditional Rendering
 - Local Storage
+
+### Day 3- Counter
