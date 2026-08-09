@@ -45,3 +45,4 @@ A reusable accordion component displaying React interview questions.
 - Local Storage
 
 ### Day 3- Counter
+### Day 4- Color Picker
