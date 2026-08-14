@@ -1,0 +1,199 @@
+.app {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 40px 32px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+}
+
+.app__header {
+  text-align: center;
+}
+
+.app__eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--aqua);
+  margin-bottom: 10px;
+}
+
+.app__title {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.app__subtitle {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+/* Clock face */
+.face {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face__ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.face__ring-track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 3;
+}
+
+.face__ring-progress {
+  fill: none;
+  stroke: url(#none);
+  stroke: var(--aqua);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.9s linear;
+}
+
+.face__readout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 1;
+}
+
+.face__time {
+  font-family: var(--font-mono);
+  font-size: 48px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+.face__meta {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.face__seconds {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--indigo-bright);
+  font-variant-numeric: tabular-nums;
+}
+
+.face__period {
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+/* Date */
+.date {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+/* Format toggle */
+.format-toggle {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.format-toggle__btn {
+  padding: 8px 16px;
+  border-radius: 9px;
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.format-toggle__btn--active {
+  background: linear-gradient(135deg, var(--indigo), var(--aqua));
+  color: #0a0e1a;
+}
+
+.format-toggle__btn:focus-visible {
+  outline: 2px solid var(--aqua);
+  outline-offset: 2px;
+}
+
+/* World clock */
+.world {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+}
+
+.world__title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+}
+
+.world__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.world__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.world__dot {
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.world__label {
+  flex: 1;
+  color: var(--text-dim);
+}
+
+.world__time {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}

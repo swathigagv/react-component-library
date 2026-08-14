@@ -1,0 +1,59 @@
+:root {
+  --bg: #0a0e1a;
+  --bg-soft: #101728;
+  --panel: #131b30;
+  --border: #202a44;
+  --text: #e7ecf7;
+  --text-dim: #8892a8;
+  --indigo: #6366f1;
+  --indigo-bright: #818cf8;
+  --aqua: #22d3ee;
+  --good: #4ade80;
+
+  --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(99, 102, 241, 0.14), transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(34, 211, 238, 0.1), transparent 45%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
