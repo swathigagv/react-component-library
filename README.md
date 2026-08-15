@@ -22,6 +22,7 @@ A curated collection of reusable React components built as part of a daily chall
 | **Day 3** | **Counter** | Interactive counter featuring increment, decrement, and reset functions. |
 | **Day 4** | **Color Picker** | Real-time color switcher updating UI dynamically based on user selection. |
 | **Day 5** | **Password Generator** | Customizable password creator with length, character criteria, and copy options. |
+| **Day 6** | **Digital Clock** | Live-updating clock with real-time display, formatted using JS Date methods. |
 
 ---
 
@@ -66,3 +67,11 @@ A utility tool for generating strong, random passwords.
 * **Concepts Practiced:** Complex conditional logic, custom helper functions within React hooks.
 
 ---
+
+### 🔹 Day 6: Digital Clock
+A real-time clock component that updates every second without a page refresh.
+
+* **Key Features:** Live time display (HH:MM:SS), 12/24-hour format toggle (if you added one), smooth re-renders.
+* **Concepts Practiced:** useEffect with setInterval, cleanup functions to prevent memory leaks, Date object formatting.
+
+--- 
