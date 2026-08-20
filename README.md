@@ -23,6 +23,8 @@ A curated collection of reusable React components built as part of a daily chall
 | **Day 4** | **Color Picker** | Real-time color switcher updating UI dynamically based on user selection. |
 | **Day 5** | **Password Generator** | Customizable password creator with length, character criteria, and copy options. |
 | **Day 6** | **Digital Clock** | Live-updating clock with real-time display, formatted using JS Date methods. |
+| **Day 7** | **Quote Generator** | Generates random inspirational quotes with an option to display a new quote on demand. Practiced API integration, asynchronous data fetching, loading states, and error handling. |
+
 
 ---
 
@@ -73,5 +75,15 @@ A real-time clock component that updates every second without a page refresh.
 
 * **Key Features:** Live time display (HH:MM:SS), 12/24-hour format toggle (if you added one), smooth re-renders.
 * **Concepts Practiced:** useEffect with setInterval, cleanup functions to prevent memory leaks, Date object formatting.
+
+--- 
+
+### 🔹 Day 7: Quote Generator
+
+A simple quote generator that fetches and displays random inspirational quotes dynamically.
+
+* **Key Features:** Generate a new random quote, display quote author, loading state, and error handling.
+* **Concepts Practiced:** useState, useEffect, API integration, fetch, asynchronous JavaScript, conditional rendering, and error handling.
+React Concepts: Managing API response data, handling loading/error states, and triggering UI updates based on state changes.
 
 --- 
