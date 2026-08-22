@@ -84,6 +84,6 @@ A simple quote generator that fetches and displays random inspirational quotes d
 
 * **Key Features:** Generate a new random quote, display quote author, loading state, and error handling.
 * **Concepts Practiced:** useState, useEffect, API integration, fetch, asynchronous JavaScript, conditional rendering, and error handling.
-React Concepts: Managing API response data, handling loading/error states, and triggering UI updates based on state changes.
+* **React Concepts:** Managing API response data, handling loading/error states, and triggering UI updates based on state changes.
 
 --- 
