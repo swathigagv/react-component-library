@@ -1,0 +1,52 @@
+:root {
+  --bg: #0f1420;
+  --surface: #161d2e;
+  --surface-2: #1d2740;
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #eef1f8;
+  --text-dim: #9aa4bd;
+  --income: #3ddc97;
+  --expense: #ff6b6b;
+  --accent: #5b7cff;
+  --radius: 14px;
+
+  --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(120% 100% at 50% -10%, #1b2440 0%, var(--bg) 55%);
+  color: var(--text);
+  font-family: var(--font-body);
+  display: flex;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 3rem) 1rem;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
