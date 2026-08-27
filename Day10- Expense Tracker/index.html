@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app">
+    <header class="app__header">
+      <h1>Expense Tracker</h1>
+      <p class="app__subtitle">Track what comes in, what goes out, and what's left.</p>
+    </header>
+
+    <section class="summary" aria-label="Balance summary">
+      <div class="summary__balance">
+        <span class="summary__label">Balance</span>
+        <span id="balance" class="summary__amount">0.00</span>
+      </div>
+
+      <div class="summary__row">
+        <div class="summary__card summary__card--income">
+          <span class="summary__label">Income</span>
+          <span id="income" class="summary__amount">0.00</span>
+        </div>
+        <div class="summary__card summary__card--expense">
+          <span class="summary__label">Expense</span>
+          <span id="expense" class="summary__amount">0.00</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section" aria-label="Add transaction">
+      <form id="transaction-form" class="transaction-form">
+        <div class="form-group">
+          <label for="text">Description</label>
+          <input type="text" id="text" placeholder="e.g. Groceries, Salary" required>
+        </div>
+
+        <div class="form-group">
+          <label for="amount">Amount</label>
+          <input type="number" id="amount" step="0.01" placeholder="Use − for expense, e.g. -25 or 500" required>
+        </div>
+
+        <button type="submit" class="btn-add">Add Transaction</button>
+      </form>
+    </section>
+
+    <section class="history" aria-label="Transaction history">
+      <h2>History</h2>
+      <ul id="transaction-list" class="transaction-list"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
