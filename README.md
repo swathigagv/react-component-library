@@ -24,7 +24,9 @@ A curated collection of reusable React components built as part of a daily chall
 | **Day 5** | **Password Generator** | Customizable password creator with length, character criteria, and copy options. |
 | **Day 6** | **Digital Clock** | Live-updating clock with real-time display, formatted using JS Date methods. |
 | **Day 7** | **Quote Generator** | Generates random inspirational quotes with an option to display a new quote on demand. Practiced API integration, asynchronous data fetching, loading states, and error handling. |
-
+| **Day 8** | **Filter & Search** | Dynamic search and filtering interface for finding and displaying relevant items efficiently. |
+| **Day 9** | **Quiz App** | Interactive quiz application with multiple-choice questions, score tracking, answer validation, and result display. |
+| **Day 10** | **Expense Tracker** | Personal expense management tool with income/expense tracking, transaction management, balance calculation, and data visualization. |
 
 ---
 
@@ -85,5 +87,36 @@ A simple quote generator that fetches and displays random inspirational quotes d
 * **Key Features:** Generate a new random quote, display quote author, loading state, and error handling.
 * **Concepts Practiced:** useState, useEffect, API integration, fetch, asynchronous JavaScript, conditional rendering, and error handling.
 * **React Concepts:** Managing API response data, handling loading/error states, and triggering UI updates based on state changes.
+
+--- 
+---
+
+### 🔹 Day 8: Filter & Search
+
+A dynamic filtering and search component that allows users to quickly find relevant items from a collection of data.
+
+- **Key Features:** Real-time search, category-based filtering, combined search and filter functionality, and empty-state handling.
+- **Concepts Practiced:** `useState`, Array `filter()`, Array `map()`, controlled inputs, event handling, conditional rendering, and derived state.
+- **React Concepts:** Managing user input, filtering dynamic data, and updating the UI based on search and filter criteria.
+
+---
+
+### 🔹 Day 9: Quiz App
+
+An interactive quiz application that presents multiple-choice questions and evaluates the user's answers.
+
+- **Key Features:** Multiple-choice questions, answer selection, answer validation, score tracking, question navigation, progress display, and final results.
+- **Concepts Practiced:** `useState`, arrays and objects, conditional rendering, event handling, state management, and dynamic rendering.
+- **React Concepts:** Managing quiz state, handling user interactions, updating scores, rendering questions dynamically, and displaying results based on state.
+
+---
+
+### 🔹 Day 10: Expense Tracker
+
+A personal expense tracking application designed to manage income and expenses and provide an overview of financial activity.
+
+- **Key Features:** Add and delete transactions, categorize expenses, calculate total income and expenses, display current balance, and view transaction history.
+- **Concepts Practiced:** `useState`, `useEffect`, array methods such as `map()` and `reduce()`, form handling, conditional rendering, and Local Storage.
+- **React Concepts:** Managing complex state, calculating derived values, handling forms, persisting data, and dynamically updating financial information.
 
 --- 
