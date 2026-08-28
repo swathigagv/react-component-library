@@ -120,3 +120,17 @@ A personal expense tracking application designed to manage income and expenses a
 - **React Concepts:** Managing complex state, calculating derived values, handling forms, persisting data, and dynamically updating financial information.
 
 --- 
+
+```
+Day 1  → Accordion          → Components + State
+Day 2  → Todo App           → CRUD + LocalStorage
+Day 3  → Counter            → State Management
+Day 4  → Color Picker       → Controlled Inputs
+Day 5  → Password Generator → Logic + Hooks
+Day 6  → Digital Clock      → useEffect + Timers
+Day 7  → Quote Generator    → API + Async JS
+Day 8  → Filter & Search    → Array Methods + Derived State
+Day 9  → Quiz App           → Complex State + Logic
+Day 10 → Expense Tracker    → Forms + Data Management
+```
+--- 
