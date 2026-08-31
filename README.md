@@ -27,6 +27,8 @@ A curated collection of reusable React components built as part of a daily chall
 | **Day 8** | **Filter & Search** | Dynamic search and filtering interface for finding and displaying relevant items efficiently. |
 | **Day 9** | **Quiz App** | Interactive quiz application with multiple-choice questions, score tracking, answer validation, and result display. |
 | **Day 10** | **Expense Tracker** | Personal expense management tool with income/expense tracking, transaction management, balance calculation, and data visualization. |
+| **Day 11** | **Modal** | Reusable modal dialog with open/close interactions, overlay handling, and conditional rendering. Practiced component composition, state management, and event handling. |
+| **Day 12** | **Tabs** | Interactive tab navigation for switching between different content sections. Practiced state-driven UI, conditional rendering, and reusable component design. |
 
 ---
 
@@ -120,6 +122,25 @@ A personal expense tracking application designed to manage income and expenses a
 - **React Concepts:** Managing complex state, calculating derived values, handling forms, persisting data, and dynamically updating financial information.
 
 --- 
+
+### 🔹 Day 11: Modal
+
+A reusable modal component designed to display additional content or actions without navigating away from the current page.
+
+* **Key Features:** Open and close modal, overlay click handling, close button, conditional rendering, and reusable modal content.
+* **Concepts Practiced:** `useState`, Conditional Rendering, Event Handling, Props, Component Composition.
+* **React Concepts:** Managing modal visibility through state, handling user interactions, rendering content conditionally, and building reusable UI components.
+
+---
+
+### 🔹 Day 12: Tabs
+
+An interactive tab component that allows users to switch between multiple content sections without leaving the page.
+
+* **Key Features:** Tab navigation, active tab state, dynamic content rendering, active-tab styling, and reusable tab structure.
+* **Concepts Practiced:** `useState`, Arrays and Objects, Event Handling, Conditional Rendering, Dynamic Rendering.
+* **React Concepts:** Managing active navigation state, rendering content dynamically based on user selection, and creating reusable components.
+
 
 ```
 Day 1  → Accordion          → Components + State
