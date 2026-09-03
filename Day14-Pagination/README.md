@@ -98,3 +98,5 @@ day14-pagination/
 - Sync `currentPage` to the URL query string so a page is shareable/
   bookmarkable.
 - Add keyboard navigation (arrow keys) across page buttons.
+
+  Happy learning!
