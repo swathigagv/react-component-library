@@ -1,6 +1,7 @@
 import { CartProvider } from './CartContext.jsx'
 import ProductGrid from './ProductGrid.jsx'
 import CartPanel from './CartPanel.jsx'
+import './App.css'
 
 function App() {
   return (
