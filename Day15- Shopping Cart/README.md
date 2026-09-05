@@ -71,6 +71,12 @@ Part of a daily React learning series (Day 15 of the component-a-day build).
   step in the reducer (`.filter(item => item.quantity > 0)`) so the cart
   array never holds a zero-quantity item.
 
+## Screenshot 
+<p align="center">
+  <img src="src/assets/Shopping Cart.png" alt="App Screenshot" width="500">
+</p>
+- View clear image under assets(for reference)
+
 ## Getting started
 
 ```bash
