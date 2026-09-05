@@ -17,3 +17,9 @@ A reusable accordion component displaying React interview questions.
 - JavaScript
 - CSS
 - Vite
+
+## Screenshot
+
+<p align="center">
+  <img src="Accordion.png" alt="App Screenshot" width="500">
+</p>
