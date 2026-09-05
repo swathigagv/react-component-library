@@ -13,3 +13,9 @@
 - Event Handling
 - Conditional Rendering
 - Local Storage
+
+## Screenshot
+
+<p align="center">
+  <img src="Todo App.png" alt="App Screenshot" width="500">
+</p>
