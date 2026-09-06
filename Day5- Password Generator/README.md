@@ -2,7 +2,13 @@
 
 A React + Vite app that generates strong, random passwords — with adjustable length, character-set toggles, a live strength meter, and a recent-passwords list. Randomness is sourced from the Web Crypto API, not `Math.random()`, so it's actually suitable for real passwords.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+• **Screenshot**
+
+<p align="center">
+  <img src="password generator.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
