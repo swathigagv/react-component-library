@@ -2,7 +2,13 @@
 
 A React + Vite color picker that lets you pick, fine-tune, and save colors across **HEX, RGB, and HSL** — with live contrast checking so you know if your text will actually be readable on top of it.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+• **Screenshot**
+
+<p align="center">
+  <img src="color picker.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
