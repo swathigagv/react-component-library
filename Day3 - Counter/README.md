@@ -2,7 +2,13 @@
 
 A small, polished counter built with **React + Vite**. Increment, decrement, reset, change the step size, and watch every change land in a live activity log — all wrapped in a dark, glowing UI with keyboard support.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+## [Screenshot]
+
+<p align="center">
+  <img src="counter.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
