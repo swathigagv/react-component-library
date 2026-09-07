@@ -23,3 +23,5 @@ A reusable accordion component displaying React interview questions.
 <p align="center">
   <img src="Accordion.png" alt="App Screenshot" width="500">
 </p>
+
+**Happy Learning!**
