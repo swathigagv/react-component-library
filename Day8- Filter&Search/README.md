@@ -2,7 +2,13 @@
 
 A React + Vite product directory with debounced search, multi-select category filters, an in-stock toggle, and sortable results — with matched search terms highlighted inline.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+**[Screenshot]**
+
+<p align="center">
+  <img src="Search& filter.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
