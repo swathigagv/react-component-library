@@ -2,7 +2,13 @@
 
 A React + Vite app that serves up a random quote from a local, categorized quote bank — with category filtering, a favorites list, copy-to-clipboard, and a one-click tweet share.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+ **[Screenshot]**
+
+ <p align="center">
+  <img src="quotegenerator.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
