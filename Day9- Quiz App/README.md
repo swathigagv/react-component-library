@@ -2,7 +2,13 @@
 
 A React + Vite multiple-choice quiz with a per-question countdown timer, instant answer feedback, a progress bar, and a results screen with a full answer review.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)**  
+
+**[Screenshot]**
+
+<p align="center">
+  <img src="QuizApp.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
