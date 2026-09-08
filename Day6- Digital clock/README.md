@@ -2,7 +2,13 @@
 
 A React + Vite digital clock with a live seconds ring, 12/24-hour toggle, a time-based greeting, and a small world clock strip for a few other time zones.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+• **[Screenshot]**
+
+<p align="center">
+  <img src="Digitalclock.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
