@@ -29,6 +29,9 @@ A curated collection of reusable React components built as part of a daily chall
 | **Day 10** | **Expense Tracker** | Personal expense management tool with income/expense tracking, transaction management, balance calculation, and data visualization. |
 | **Day 11** | **Modal** | Reusable modal dialog with open/close interactions, overlay handling, and conditional rendering. Practiced component composition, state management, and event handling. |
 | **Day 12** | **Tabs** | Interactive tab navigation for switching between different content sections. Practiced state-driven UI, conditional rendering, and reusable component design. |
+| **Day 13** | **Weather App** | Weather application that fetches and displays real-time weather information based on the user's location or searched city. Practiced API integration, asynchronous data fetching, loading states, error handling, and dynamic UI updates. |
+| **Day 14** | **Pagination** | Interactive pagination component for navigating through large datasets efficiently. Practiced array slicing, page state management, dynamic rendering, and navigation controls. |
+| **Day 15** | **Shopping Cart** | Interactive shopping cart application for adding, removing, and updating products. Practiced state management, quantity handling, price calculations, derived state, and dynamic rendering. |
 
 ---
 
@@ -141,6 +144,34 @@ An interactive tab component that allows users to switch between multiple conten
 * **Concepts Practiced:** `useState`, Arrays and Objects, Event Handling, Conditional Rendering, Dynamic Rendering.
 * **React Concepts:** Managing active navigation state, rendering content dynamically based on user selection, and creating reusable components.
 
+### 🔹 Day 13: Weather App
+
+A weather application that fetches and displays weather information based on a searched city.
+
+* **Key Features:** City search, weather information display, temperature and weather conditions, API integration, loading state, and error handling.
+* **Concepts Practiced:** `useState`, `useEffect`, API integration, `fetch`, asynchronous JavaScript, conditional rendering, and event handling.
+* **React Concepts:** Fetching and managing API data, handling loading and error states, updating the UI dynamically, and managing user input.
+
+---
+
+### 🔹 Day 14: Pagination
+
+An interactive pagination component designed to efficiently display and navigate through large collections of data.
+
+* **Key Features:** Page navigation, previous/next controls, active page indicator, dynamic data rendering, and handling multiple pages.
+* **Concepts Practiced:** `useState`, Array methods, `slice()`, event handling, conditional rendering, and dynamic rendering.
+* **React Concepts:** Managing page state, displaying data based on the selected page, handling navigation, and creating reusable pagination components.
+
+---
+
+### 🔹 Day 15: Shopping Cart
+
+An interactive shopping cart application that allows users to manage products and calculate their total purchase amount.
+
+* **Key Features:** Add products to cart, remove products, increase/decrease quantity, calculate subtotal and total price, and display cart items dynamically.
+* **Concepts Practiced:** `useState`, Arrays and Objects, `map()`, `filter()`, `reduce()`, event handling, conditional rendering, and derived state.
+* **React Concepts:** Managing complex state, updating nested data, calculating derived values, handling user interactions, and dynamically rendering cart contents.
+
 
 ```
 Day 1  → Accordion          → Components + State
@@ -153,5 +184,10 @@ Day 7  → Quote Generator    → API + Async JS
 Day 8  → Filter & Search    → Array Methods + Derived State
 Day 9  → Quiz App           → Complex State + Logic
 Day 10 → Expense Tracker    → Forms + Data Management
+Day 11 → Modal              → State + Conditional Rendering
+Day 12 → Tabs               → Navigation + Dynamic Rendering
+Day 13 → Weather App        → API + Async Data
+Day 14 → Pagination         → Array Slicing + State
+Day 15 → Shopping Cart      → State + Derived Data
 ```
 --- 
