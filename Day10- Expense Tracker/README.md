@@ -4,7 +4,6 @@ A React + Vite rebuild of a vanilla JS/HTML/CSS expense tracker — same core id
 
 **[Live Demo](#)** 
 
-• **Screenshots**
 ## Screenshot
 
 <p align="center">
