@@ -2,7 +2,14 @@
 
 A React + Vite rebuild of a vanilla JS/HTML/CSS expense tracker — same core idea (log income and expenses, see your balance), rebuilt as proper React state with a few real improvements: inline validation, filters, undo, and persistence through a reusable hook.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+• **Screenshots**
+## Screenshot
+
+<p align="center">
+  <img src="Expense tracker.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
