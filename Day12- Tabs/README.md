@@ -2,7 +2,13 @@
 
 A reusable, accessible React Tabs component with a sliding indicator, full keyboard navigation, and the WAI-ARIA tabs pattern — demoed in two different contexts to prove it's actually reusable, not hardcoded to one layout.
 
-**[Live Demo](#)** • **[Screenshots](#)**
+**[Live Demo](#)** 
+
+## Screenshot
+
+<p align="center">
+  <img src="Tabs.png" alt="App Screenshot" width="500">
+</p>
 
 ---
 
