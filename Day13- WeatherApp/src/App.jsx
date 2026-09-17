@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import './App.css'
 
 // Open-Meteo needs no API key — geocoding turns a place name into
 // coordinates, then forecast turns coordinates into weather data.
