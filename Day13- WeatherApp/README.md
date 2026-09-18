@@ -6,6 +6,12 @@ required.
 
 Part of a daily React learning series (Day 13 of the component-a-day build).
 
+## Screenshot
+
+<p align="center">
+  <img src="WeatherApp.png" alt="App Screenshot" width="500">
+</p>
+
 ## Features
 
 - **City search** — type any city name and fetch its live weather via a free
