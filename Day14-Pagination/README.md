@@ -6,6 +6,12 @@ adjustable rows-per-page selector.
 
 Part of a daily React learning series (Day 14 of the component-a-day build).
 
+## Screenshot
+
+<p align="center">
+  <img src="pagination.png" alt="App Screenshot" width="500">
+</p>
+
 ## Features
 
 - **Paginated table** — a 63-row sample team directory sliced into pages,
