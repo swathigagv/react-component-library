@@ -1,0 +1,12 @@
+| #      | Question                                                                       | What you should be ready to explain                                                                             |
+| ------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **1**  | **What is React? Why use React?**                                              | Component-based architecture, Virtual DOM, declarative UI, reusable components                                  |
+| **2**  | **What is the difference between Props and State?**                            | Props → passed from parent; State → managed inside component; state changes trigger re-render                   |
+| **3**  | **What is `useState()`?**                                                      | State declaration, updater function, re-rendering, functional updates                                           |
+| **4**  | **What is `useEffect()` and when do you use it?**                              | Side effects, API calls, subscriptions, dependency array, cleanup                                               |
+| **5**  | **What is the Virtual DOM? How does React update the UI?**                     | Virtual DOM → comparison/reconciliation → minimal real DOM updates                                              |
+| **6**  | **What are controlled and uncontrolled components?**                           | Form state managed by React vs DOM/ref                                                                          |
+| **7**  | **What is the difference between `useMemo`, `useCallback`, and `React.memo`?** | Memoizing values vs functions vs components; performance optimization                                           |
+| **8**  | **Why are keys required when rendering lists?**                                | Helps React identify elements and efficiently reconcile changes                                                 |
+| **9**  | **How do you call and handle APIs in React?**                                  | `fetch`/Axios, loading, success, error, `useEffect`, cleanup/cancellation                                       |
+| **10** | **How do you optimize the performance of a React application?**                | Lazy loading, code splitting, memoization, pagination, debouncing, avoiding unnecessary renders, virtualization |
